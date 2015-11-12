@@ -1,0 +1,229 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\陈家鹏\Desktop\我的工程模板\User\Project\Project.uvproj
+Project File Date:  01/29/2012
+
+<h2>Output:</h2>
+Build target 'Project'
+compiling main.c...
+..\User\main.c(24): error:  #5: cannot open source input file "stm32_eval.h": No such file or directory
+..\User\main.c:   #include "stm32_eval.h"
+..\User\main.c:                          ^
+..\User\main.c: ..\User\main.c: 0 warnings, 1 error
+compiling stm32f10x_it.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+assembling startup_stm32f10x_cl.s...
+assembling startup_stm32f10x_hd.s...
+assembling startup_stm32f10x_hd_vl.s...
+assembling startup_stm32f10x_ld.s...
+assembling startup_stm32f10x_ld_vl.s...
+assembling startup_stm32f10x_md.s...
+assembling startup_stm32f10x_md_vl.s...
+assembling startup_stm32f10x_xl.s...
+Target not created
+Build target 'Project'
+compiling main.c...
+..\User\main.c(64): warning:  #223-D: function "STM_EVAL_LEDInit" declared implicitly
+..\User\main.c:     STM_EVAL_LEDInit(LED1);
+..\User\main.c:     ^
+..\User\main.c(64): error:  #20: identifier "LED1" is undefined
+..\User\main.c:     STM_EVAL_LEDInit(LED1);
+..\User\main.c:                      ^
+..\User\main.c(65): error:  #20: identifier "LED2" is undefined
+..\User\main.c:     STM_EVAL_LEDInit(LED2);
+..\User\main.c:                      ^
+..\User\main.c(66): error:  #20: identifier "LED3" is undefined
+..\User\main.c:     STM_EVAL_LEDInit(LED3);
+..\User\main.c:                      ^
+..\User\main.c(67): error:  #20: identifier "LED4" is undefined
+..\User\main.c:     STM_EVAL_LEDInit(LED4);
+..\User\main.c:                      ^
+..\User\main.c(84): warning:  #223-D: function "STM_EVAL_COMInit" declared implicitly
+..\User\main.c:     STM_EVAL_COMInit(COM1, &USART_InitStructure);
+..\User\main.c:     ^
+..\User\main.c(84): error:  #20: identifier "COM1" is undefined
+..\User\main.c:     STM_EVAL_COMInit(COM1, &USART_InitStructure);
+..\User\main.c:                      ^
+..\User\main.c(101): warning:  #223-D: function "LCD_Clear" declared implicitly
+..\User\main.c:     LCD_Clear(LCD_COLOR_WHITE);
+..\User\main.c:     ^
+..\User\main.c(101): error:  #20: identifier "LCD_COLOR_WHITE" is undefined
+..\User\main.c:     LCD_Clear(LCD_COLOR_WHITE);
+..\User\main.c:               ^
+..\User\main.c(104): warning:  #223-D: function "LCD_SetBackColor" declared implicitly
+..\User\main.c:     LCD_SetBackColor(LCD_COLOR_BLUE);
+..\User\main.c:     ^
+..\User\main.c(104): error:  #20: identifier "LCD_COLOR_BLUE" is undefined
+..\User\main.c:     LCD_SetBackColor(LCD_COLOR_BLUE);
+..\User\main.c:                      ^
+..\User\main.c(106): warning:  #223-D: function "LCD_SetTextColor" declared implicitly
+..\User\main.c:     LCD_SetTextColor(LCD_COLOR_WHITE);
+..\User\main.c:     ^
+..\User\main.c(107): warning:  #223-D: function "LCD_DisplayStringLine" declared implicitly
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_0, (uint8_t *)MESSAGE1);
+..\User\main.c:     ^
+..\User\main.c(107): error:  #20: identifier "LCD_LINE_0" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_0, (uint8_t *)MESSAGE1);
+..\User\main.c:                           ^
+..\User\main.c(107): error:  #20: identifier "MESSAGE1" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_0, (uint8_t *)MESSAGE1);
+..\User\main.c:                                                  ^
+..\User\main.c(108): error:  #20: identifier "LCD_LINE_1" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_1, (uint8_t *)MESSAGE2);
+..\User\main.c:                           ^
+..\User\main.c(108): error:  #20: identifier "MESSAGE2" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_1, (uint8_t *)MESSAGE2);
+..\User\main.c:                                                  ^
+..\User\main.c(109): error:  #20: identifier "LCD_LINE_2" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_2, (uint8_t *)MESSAGE3);
+..\User\main.c:                           ^
+..\User\main.c(109): error:  #20: identifier "MESSAGE3" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_2, (uint8_t *)MESSAGE3);
+..\User\main.c:                                                  ^
+..\User\main.c(118): warning:  #223-D: function "STM_EVAL_LEDOn" declared implicitly
+..\User\main.c:     STM_EVAL_LEDOn(LED1);
+..\User\main.c:     ^
+..\User\main.c(141): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c:     USART_SendData(EVAL_COM1, (uint8_t) ch);
+..\User\main.c:                    ^
+..\User\main.c: ..\User\main.c: 7 warnings, 14 errors
+Target not created
+Build target 'Project'
+compiling main.c...
+..\User\main.c(80): warning:  #223-D: function "STM_EVAL_COMInit" declared implicitly
+..\User\main.c:     STM_EVAL_COMInit(COM1, &USART_InitStructure);
+..\User\main.c:     ^
+..\User\main.c(80): error:  #20: identifier "COM1" is undefined
+..\User\main.c:     STM_EVAL_COMInit(COM1, &USART_InitStructure);
+..\User\main.c:                      ^
+..\User\main.c(97): warning:  #223-D: function "LCD_Clear" declared implicitly
+..\User\main.c:     LCD_Clear(LCD_COLOR_WHITE);
+..\User\main.c:     ^
+..\User\main.c(97): error:  #20: identifier "LCD_COLOR_WHITE" is undefined
+..\User\main.c:     LCD_Clear(LCD_COLOR_WHITE);
+..\User\main.c:               ^
+..\User\main.c(100): warning:  #223-D: function "LCD_SetBackColor" declared implicitly
+..\User\main.c:     LCD_SetBackColor(LCD_COLOR_BLUE);
+..\User\main.c:     ^
+..\User\main.c(100): error:  #20: identifier "LCD_COLOR_BLUE" is undefined
+..\User\main.c:     LCD_SetBackColor(LCD_COLOR_BLUE);
+..\User\main.c:                      ^
+..\User\main.c(102): warning:  #223-D: function "LCD_SetTextColor" declared implicitly
+..\User\main.c:     LCD_SetTextColor(LCD_COLOR_WHITE);
+..\User\main.c:     ^
+..\User\main.c(103): warning:  #223-D: function "LCD_DisplayStringLine" declared implicitly
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_0, (uint8_t *)MESSAGE1);
+..\User\main.c:     ^
+..\User\main.c(103): error:  #20: identifier "LCD_LINE_0" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_0, (uint8_t *)MESSAGE1);
+..\User\main.c:                           ^
+..\User\main.c(103): error:  #20: identifier "MESSAGE1" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_0, (uint8_t *)MESSAGE1);
+..\User\main.c:                                                  ^
+..\User\main.c(104): error:  #20: identifier "LCD_LINE_1" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_1, (uint8_t *)MESSAGE2);
+..\User\main.c:                           ^
+..\User\main.c(104): error:  #20: identifier "MESSAGE2" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_1, (uint8_t *)MESSAGE2);
+..\User\main.c:                                                  ^
+..\User\main.c(105): error:  #20: identifier "LCD_LINE_2" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_2, (uint8_t *)MESSAGE3);
+..\User\main.c:                           ^
+..\User\main.c(105): error:  #20: identifier "MESSAGE3" is undefined
+..\User\main.c:     LCD_DisplayStringLine(LCD_LINE_2, (uint8_t *)MESSAGE3);
+..\User\main.c:                                                  ^
+..\User\main.c(114): warning:  #223-D: function "STM_EVAL_LEDOn" declared implicitly
+..\User\main.c:     STM_EVAL_LEDOn(LED1);
+..\User\main.c:     ^
+..\User\main.c(114): error:  #20: identifier "LED1" is undefined
+..\User\main.c:     STM_EVAL_LEDOn(LED1);
+..\User\main.c:                    ^
+..\User\main.c(115): error:  #20: identifier "LED2" is undefined
+..\User\main.c:     STM_EVAL_LEDOn(LED2);
+..\User\main.c:                    ^
+..\User\main.c(116): error:  #20: identifier "LED3" is undefined
+..\User\main.c:     STM_EVAL_LEDOn(LED3);
+..\User\main.c:                    ^
+..\User\main.c(117): error:  #20: identifier "LED4" is undefined
+..\User\main.c:     STM_EVAL_LEDOn(LED4);
+..\User\main.c:                    ^
+..\User\main.c(137): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c:     USART_SendData(EVAL_COM1, (uint8_t) ch);
+..\User\main.c:                    ^
+..\User\main.c: ..\User\main.c: 6 warnings, 14 errors
+Target not created
+Build target 'Project'
+compiling main.c...
+linking...
+.\object\Project.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+.\object\Project.sct: Not enough information to list image symbols.
+.\object\Project.sct: Not enough information to list the image map.
+.\object\Project.sct: Finished: 2 information, 0 warning and 1 error messages.
+".\object\Project.axf" - 1 Error(s), 0 Warning(s).
+Build target 'Project'
+linking...
+.\object\Project.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+.\object\Project.sct: Not enough information to list image symbols.
+.\object\Project.sct: Not enough information to list the image map.
+.\object\Project.sct: Finished: 2 information, 0 warning and 1 error messages.
+".\object\Project.axf" - 1 Error(s), 0 Warning(s).
+Build target 'Project'
+linking...
+.\object\Project.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+.\object\Project.sct: Not enough information to list image symbols.
+.\object\Project.sct: Not enough information to list the image map.
+.\object\Project.sct: Finished: 2 information, 0 warning and 1 error messages.
+".\object\Project.axf" - 1 Error(s), 0 Warning(s).
+Build target 'Project'
+linking...
+.\object\Project.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+.\object\Project.sct: Not enough information to list image symbols.
+.\object\Project.sct: Not enough information to list the image map.
+.\object\Project.sct: Finished: 2 information, 0 warning and 1 error messages.
+".\object\Project.axf" - 1 Error(s), 0 Warning(s).
+Build target 'Project'
+compiling main.c...
+linking...
+.\object\Project.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+.\object\Project.sct: Not enough information to list image symbols.
+.\object\Project.sct: Not enough information to list the image map.
+.\object\Project.sct: Finished: 2 information, 0 warning and 1 error messages.
+".\object\Project.axf" - 1 Error(s), 0 Warning(s).
+Build target 'Project'
+linking...
+Program Size: Code=848 RO-data=336 RW-data=20 ZI-data=1636  
+FromELF: creating hex file...
+".\object\Project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Project'
+compiling main.c...
+linking...
+Program Size: Code=848 RO-data=336 RW-data=20 ZI-data=1636  
+FromELF: creating hex file...
+".\object\Project.axf" - 0 Error(s), 0 Warning(s).

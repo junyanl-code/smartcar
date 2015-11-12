@@ -1,0 +1,22 @@
+.\object\pwm.o: ..\PWM\pwm.c
+.\object\pwm.o: ..\PWM\pwm.h
+.\object\pwm.o: ..\..\CMSIS\stm32f10x.h
+.\object\pwm.o: ..\..\CMSIS\core_cm3.h
+.\object\pwm.o: D:\Program Files\Keil\ARM\RV31\Inc\stdint.h
+.\object\pwm.o: ..\..\CMSIS\system_stm32f10x.h
+.\object\pwm.o: ..\User\stm32f10x_conf.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\object\pwm.o: ..\..\CMSIS\stm32f10x.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_cec.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_crc.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_exti.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_flash.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_iwdg.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_tim.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_usart.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\stm32f10x_wwdg.h
+.\object\pwm.o: ..\..\StdPeriph_Driver\inc\misc.h
